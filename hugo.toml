@@ -1,0 +1,94 @@
+baseURL = "https://yyyw12.github.io/"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh"
+title = "yyyw12 的博客"
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+enableEmoji = true
+hasCJKLanguage = true
+
+[pagination]
+  pagerSize = 5
+
+# 搜索功能的前提：首页额外输出 JSON 索引
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  env = "production"
+  title = "yyyw12 的博客"
+  description = "Linux 学习笔记 · Shell 脚本 · 课程实验记录"
+  keywords = ["Linux", "Hugo", "Shell", "博客", "PaperMod"]
+  author = "yyyw12"
+  DateFormat = "2006-01-02"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = true
+  disableScrollToTop = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = false
+  comments = false
+
+  [params.assets]
+    disableHLJS = true
+    disableFingerprinting = false
+
+  [params.homeInfoParams]
+    Title = "你好，欢迎来到我的博客 👋"
+    Content = """
+我是 yyyw12，计算机科学与技术专业的学生。
+
+这里记录我在《Linux 基础及应用》课程里的学习笔记：文件管理、Vim、grep/sed/awk、
+Shell 脚本、Makefile 构建，以及搭建这个博客的全过程。
+"""
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yyyw12"
+  [[params.socialIcons]]
+    name = "rss"
+    url = "index.xml"
+
+# ---------------- 六大菜单 ----------------
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "首页"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 20
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 30
+  [[menu.main]]
+    identifier = "categories"
+    name = "分类"
+    url = "/categories/"
+    weight = 40
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 50
+  [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 60
