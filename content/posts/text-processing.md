@@ -2,7 +2,7 @@
 title: "grep / sed / awk：文本处理三剑客"
 date: 2026-10-20
 draft: false
-author: "yyyw12"
+author: "冯怡娜"
 summary: "按「找、改、算」三种需求分别介绍 grep、sed、awk，再用管道把它们串起来做组合统计。"
 description: "grep、sed、awk 的用法与管道组合"
 categories: ["Linux基础"]

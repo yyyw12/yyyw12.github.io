@@ -2,7 +2,7 @@
 title: "Linux 文件管理：从 mkdir 到硬链接"
 date: 2026-10-08
 draft: false
-author: "yyyw12"
+author: "冯怡娜"
 summary: "整理实验二里的目录与文件操作，重点讲清楚 cp/mv 的参数陷阱，以及硬链接与软链接在 inode 层面的区别。"
 description: "Linux 文件管理命令与硬链接、软链接原理"
 categories: ["Linux基础"]

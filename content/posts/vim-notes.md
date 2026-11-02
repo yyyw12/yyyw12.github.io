@@ -2,7 +2,7 @@
 title: "Vim 速查：模式、查找与批量替换"
 date: 2026-10-12
 draft: false
-author: "yyyw12"
+author: "冯怡娜"
 summary: "Vim 的多模式设计一开始很别扭，用顺之后「动作 + 数量 + 对象」的组合效率极高。这篇记录我常用的命令和几个踩过的坑。"
 description: "Vim 模式切换、查找替换与常用命令"
 categories: ["Linux基础"]

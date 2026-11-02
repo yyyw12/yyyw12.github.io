@@ -1,4 +1,4 @@
-# yyyw12 的博客
+# 冯怡娜的博客
 
 基于 [Hugo](https://gohugo.io/) + [PaperMod](https://github.com/adityatelange/hugo-PaperMod) 搭建的个人技术博客，
 用于记录《Linux 基础及应用》课程的学习笔记。
@@ -73,7 +73,9 @@ hugo --gc --minify                  # 输出到 public/
 
 ## 说明
 
-站点中的姓名 `yyyw12` 与头像为占位内容，可按需替换：
+站点作者：冯怡娜，长安大学水利与环境学院水利水电工程专业，班级 2024290603，学号 2024901763。
 
-- 个人信息：`content/about.md`、`hugo.toml` 中的 `[params.homeInfoParams]`
+站点中的个人信息集中在两处，需要修改时改这两个文件即可：
+
+- 个人信息与照片：`content/about.md`、`hugo.toml` 中的 `[params.homeInfoParams]` 与 `author`
 - 头像：`static/images/profile.jpg`

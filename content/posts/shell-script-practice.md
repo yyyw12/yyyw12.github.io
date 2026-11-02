@@ -2,7 +2,7 @@
 title: "Shell 脚本实战：年龄分房与自动备份"
 date: 2026-10-15
 draft: false
-author: "yyyw12"
+author: "冯怡娜"
 summary: "两个小脚本：一个用 if/elif 按年龄段分配房间，一个用 for 循环批量备份并写带时间戳的日志。附 bash -x 调试心得。"
 description: "Bash 条件判断、循环、日志与调试"
 categories: ["Shell脚本"]

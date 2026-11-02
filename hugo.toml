@@ -1,7 +1,7 @@
 baseURL = "https://yyyw12.github.io/"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh"
-title = "yyyw12 的博客"
+title = "冯怡娜的博客"
 theme = "PaperMod"
 enableRobotsTXT = true
 buildDrafts = false
@@ -17,10 +17,10 @@ hasCJKLanguage = true
 
 [params]
   env = "production"
-  title = "yyyw12 的博客"
+  title = "冯怡娜的博客"
   description = "Linux 学习笔记 · Shell 脚本 · 课程实验记录"
   keywords = ["Linux", "Hugo", "Shell", "博客", "PaperMod"]
-  author = "yyyw12"
+  author = "冯怡娜"
   DateFormat = "2006-01-02"
   defaultTheme = "auto"
   disableThemeToggle = false
@@ -47,7 +47,7 @@ hasCJKLanguage = true
   [params.homeInfoParams]
     Title = "你好，欢迎来到我的博客 👋"
     Content = """
-我是 yyyw12，计算机科学与技术专业的学生。
+我是冯怡娜，水利水电工程专业的学生。
 
 这里记录我在《Linux 基础及应用》课程里的学习笔记：文件管理、Vim、grep/sed/awk、
 Shell 脚本、Makefile 构建，以及搭建这个博客的全过程。

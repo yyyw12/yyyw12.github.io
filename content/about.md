@@ -9,15 +9,17 @@ hidemeta: true
 comments: false
 ---
 
-## 你好，我是 yyyw12 👋
+## 你好，我是冯怡娜 👋
 
-![个人照片](/images/profile.jpg)
+{{< figure src="/images/profile.jpg" width="220" >}}
 
 | 项目 | 内容 |
 | --- | --- |
-| 姓名 | yyyw12 |
-| 专业 | 计算机科学与技术 |
-| 方向 | Linux 系统管理 · Shell 脚本 · 后端开发 |
+| 姓名 | 冯怡娜 |
+| 专业 | 水利水电工程 |
+| 学院 | 水利与环境学院 |
+| 班级 | 2024290603 |
+| 方向 | Linux 系统管理 · Shell 脚本 · 数据处理 |
 | 学校 | 长安大学 |
 | GitHub | [@yyyw12](https://github.com/yyyw12) |
 

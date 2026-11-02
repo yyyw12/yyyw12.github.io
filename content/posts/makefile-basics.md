@@ -2,7 +2,7 @@
 title: "Makefile 入门：从三行规则到完整构建"
 date: 2026-10-18
 draft: false
-author: "yyyw12"
+author: "冯怡娜"
 summary: "从最朴素的目标/依赖/命令三段式，到变量、自动变量、模式规则和伪目标，一步步把 Makefile 写规范。"
 description: "Makefile 语法、变量、自动变量与伪目标"
 categories: ["构建工具"]
